@@ -1,0 +1,160 @@
+@import "public";
+.header{
+    height: 88px;
+    background-color: white;
+    padding: 22px 0;
+    box-sizing: border-box;
+    img{
+        @include size(288px,44px);
+    }
+}
+/* 登录 */
+.login{
+    height: 592px;
+    background-image: url('../../dist/img/login/background.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    .login-box{
+        box-sizing: border-box;
+        @include size(366px,472px);
+        padding: 24px;
+        background-color: white;
+        position: absolute;
+        right: 200px;
+        top: 37px;
+        h3{
+            @include font(16px,'Source Han Sans CN',#000000,600);
+            padding-bottom: 8px;
+            border-bottom: 3px solid #e4393c;
+            line-height: 28px;
+            height: 28px;
+            display: inline-block;
+        }
+        .account{
+            margin-top: 30px;
+            div{
+                height: 40px;
+                line-height: 40px;
+                border: 1px solid #e6e6e6;
+            }
+            div:nth-of-type(1){
+                margin-top: 20px;
+            }
+            span{
+                font-size: 20px;
+                width: 42px;
+                display: block;
+                float: left;
+                border-right: 1px solid #e6e6e6;
+                background: #fafafa;
+                text-align: center;
+                color: #666666;
+            }
+            p{
+                line-height: 24px;
+                height: 24px;
+                text-align: center;
+                @include font(12px,'Microsoft Yahei',#ff0000,500);
+            }
+        }
+        .forget{
+            line-height: 25px;
+            height: 20px;
+            @include font(12px,'Microsoft Yahei',#666666,500);
+            a{
+                float: right;
+                @include font(12px,'Microsoft Yahei',#666666,500);
+            }   
+            a:hover{
+                text-decoration: underline;
+            }
+            input{
+                margin-right: 8px;
+                height: 11px;
+            }
+            margin-bottom: 20px;
+        }
+        .go{
+            display: block;
+            box-sizing: border-box;
+            @include size(100%,42px);
+            padding: 1px,6px;
+            text-align: center;
+            line-height: 40px;
+            background: #e5e5e5;
+            @include font(16px,'Source Han Sans CN',#ffffff,500);
+            border-radius: 5px;
+        }
+        .registor{
+            margin-top: 18px;
+            margin-bottom: 30px;
+            a{
+                float: right;
+                @include font(14px,'Source Han Sans CN',#1d66b2,500);
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        }
+        b{
+            height: 18px;
+            line-height: 18px;
+            display: block;
+            @include font(14px,'Source Han Sans CN',#666666,500);
+        }
+        span{
+            display: block;
+            display: flex;
+            justify-content: space-around;
+            a{
+                display: block;
+            }
+            img{
+                @include size(30px,30px);
+                margin-top: 10px;
+            }
+        }
+    }
+}
+/* 底部 */
+.foot .service-link{
+    height: 215px;
+    padding: 20px 8px;
+    .foot-icon{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        li{
+            position: relative;
+            img{
+                @include position(-15px,0);
+                border-right: 1px solid #E6E6E6;
+                padding-right: 15px;
+                @include size(56px,56px);
+            }
+            p{
+                margin-left: 70px;
+                @include font(20px,"Microsoft Yahei",#444444,500);
+                text-align: center;
+            }
+        }
+    }
+    p{
+        text-align: center;
+        line-height: 20px;
+        height: 20px;
+        a{
+            @include font(14px,"Microsoft Yahei",#666666,500);
+            margin-bottom: 50px;
+        }
+        a:hover{
+            color: #dc0014;
+            text-decoration: underline;
+        }
+        @include font(12px,"Microsoft Yahei",#666666,500);
+    }
+    .bottom{
+        margin-bottom: 30px;
+    }
+}

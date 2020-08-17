@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/registor.min.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="banner">
+        <div class="header content">
+            <img src="../img/login/logo1.jpg" alt="">
+        </div>
+    </div>
+    <!-- 注册 -->
+    <div class="banner">
+        <div class="registor-box content">
+            <div class="title">
+                注册
+            </div>
+            <div class="registor-write">
+    <!-- 账号 -->
+                <div class="clear">
+                    <span>手机注册：</span>
+                    <input type="text" id="registor">
+                    <p id="registor-wran"></p>
+                </div>
+    <!-- 输入密码 -->
+                <div class="clear">
+                    <span>输入密码：</span>
+                    <input type="password" id="pwd">
+                    <p id="pwd-warn"></p>
+                </div>
+    <!-- 确认密码 -->
+                <div class="clear">
+                    <span>确认密码：</span>
+                    <input type="password" id="sure">
+                    <p id="sure-warn"></p>
+                </div>
+    <!-- 验证码 -->
+                <div class="clear">
+                    <span>图片验证：</span>
+                    <input type="text" id="code">
+                    <p id="code-warn"></p>
+                    <b id="in-code"></b>
+                    <a href="javascript:;" id="change-code">换一张</a>
+                </div>
+                <p class="clear"><input type="checkbox" id="agree">我已阅读并同意 <a href="">《文轩交易条款》</a></p>
+    <!-- 注册 -->
+                <a href="javascript:;" id="go-registor">注册</a>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <div class="foot banner">
+        <div class="service-link content">
+            <p>川公网安备 51010602000457号 丨 出版物经营许可证 丨 蜀ICP备1101号</p>
+            <p>Copyright(C) 文轩网2000-2020 版权所有 丨 客服热线：400-072-0808</p>
+        </div>
+    </div>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/registor.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "id": "1990116",
+  "name": "文轩网",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1120971",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "1546607",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "1638197",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    }
+  ]
+}
